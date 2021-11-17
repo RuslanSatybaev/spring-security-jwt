@@ -1,6 +1,6 @@
-package com.javamaster.springsecurityjwt.config;
+package com.inside.springsecurityjwt.config;
 
-import com.javamaster.springsecurityjwt.entity.UserEntity;
+import com.inside.springsecurityjwt.entity.UserEntity;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

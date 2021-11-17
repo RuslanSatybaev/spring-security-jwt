@@ -1,6 +1,6 @@
-package com.javamaster.springsecurityjwt.repository;
+package com.inside.springsecurityjwt.repository;
 
-import com.javamaster.springsecurityjwt.entity.RoleEntity;
+import com.inside.springsecurityjwt.entity.RoleEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RoleEntityRepository extends JpaRepository<RoleEntity, Integer> {

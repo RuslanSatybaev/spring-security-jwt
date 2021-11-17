@@ -1,6 +1,6 @@
-package com.javamaster.springsecurityjwt.config;
+package com.inside.springsecurityjwt.config;
 
-import com.javamaster.springsecurityjwt.config.jwt.JwtFilter;
+import com.inside.springsecurityjwt.config.jwt.JwtFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -27,7 +27,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .authorizeRequests()
-                .antMatchers("/admin/*").hasRole("ADMIN")
                 .antMatchers("/user/*").hasRole("USER")
                 .antMatchers("/register", "/auth").permitAll()
                 .and()

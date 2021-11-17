@@ -1,7 +1,7 @@
-package com.javamaster.springsecurityjwt.config;
+package com.inside.springsecurityjwt.config;
 
-import com.javamaster.springsecurityjwt.entity.UserEntity;
-import com.javamaster.springsecurityjwt.service.UserService;
+import com.inside.springsecurityjwt.entity.UserEntity;
+import com.inside.springsecurityjwt.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

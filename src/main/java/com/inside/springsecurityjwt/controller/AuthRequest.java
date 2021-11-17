@@ -1,4 +1,4 @@
-package com.javamaster.springsecurityjwt.controller;
+package com.inside.springsecurityjwt.controller;
 
 import lombok.Data;
 

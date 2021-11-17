@@ -1,8 +1,8 @@
-package com.javamaster.springsecurityjwt.controller;
+package com.inside.springsecurityjwt.controller;
 
-import com.javamaster.springsecurityjwt.config.jwt.JwtProvider;
-import com.javamaster.springsecurityjwt.entity.UserEntity;
-import com.javamaster.springsecurityjwt.service.UserService;
+import com.inside.springsecurityjwt.config.jwt.JwtProvider;
+import com.inside.springsecurityjwt.entity.UserEntity;
+import com.inside.springsecurityjwt.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -12,6 +12,7 @@ import javax.validation.Valid;
 
 @RestController
 public class AuthController {
+
     @Autowired
     private UserService userService;
     @Autowired
